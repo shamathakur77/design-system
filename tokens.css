@@ -1,0 +1,10 @@
+:root {
+  --ink: #0d0c0a;
+  --paper: #f5f0e8;
+  --gold: #c9a84c;
+  --rust: #b85c38;
+  --teal: #3a7d74;
+
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'DM Mono', monospace;
+}
