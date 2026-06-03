@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css">
+  <style>
+    body {
+      background: var(--ink);
+      color: var(--paper);
+      font-family: var(--font-body);
+      margin: 0;
+      padding: 48px;
+    }
+    h1 {
+      font-family: var(--font-heading);
+      color: var(--paper);
+      font-size: 3rem;
+      font-weight: 600;
+      margin: 0 0 24px;
+    }
+    .card {
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--gold);
+      border-radius: 8px;
+      padding: 32px;
+      max-width: 480px;
+    }
+    .card h2 {
+      font-family: var(--font-heading);
+      color: var(--rust);
+      margin-top: 0;
+    }
+    .kofi {
+      display: inline-block;
+      margin-top: 24px;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--font-body);
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+    .accent-teal { color: var(--teal); }
+  </style>
+</head>
+<body>
+  <h1>The aesthetic, in code</h1>
+  <div class="card">
+    <h2>Warm editorial</h2>
+    <p>Dark ink base, warm paper surfaces, gold hairline borders. Body in DM Mono, headings in Cormorant Garamond.</p>
+    <p class="accent-teal">Teal and rust as secondary accents.</p>
+    <a class="kofi" href="https://ko-fi.com/shamathakur">Support the work</a>
+  </div>
+</body>
+</html>
